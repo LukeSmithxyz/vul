@@ -5,7 +5,7 @@ vul: vul.sh vul.awk vul.tsv
 	cat vul.sh > $@
 	echo 'exit 0' >> $@
 	echo "#EOF" >> $@
-	tar cz vul.awk vul.tsv >> $@
+	tar czf - vul.awk vul.tsv >> $@
 	chmod +x $@
 
 test: vul.sh
