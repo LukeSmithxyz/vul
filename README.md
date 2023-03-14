@@ -48,6 +48,18 @@ cd vul
 sudo make install
 ```
 
+## Arch User Repository
+
+`vul` is also available in the Arch User Repository. `vul-git` in the Arch User Repository is based on `kjv-git` for `kjv`. Tim Cooper wrote the PKGBUILD for `kjv-git`. [Corey Stephan](https://github.com/historical-theology) ported that PKGBUILD as `vul-git`.
+
+https://aur.archlinux.org/packages/vul-git/
+
+For example, a user with `pamac` installed might install `vul` with the following command:
+
+```
+pamac install vul-git
+```
+
 ## License
 
 The script is in the public domain.
