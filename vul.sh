@@ -1,5 +1,5 @@
 #!/bin/sh
-# vul: Read the Word of God in Greek from your terminal
+# vul: Read the Word of God in Latin from your terminal
 # License: Public domain
 
 SELF="$0"
